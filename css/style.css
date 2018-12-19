@@ -1,0 +1,106 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h2,p{
+	margin: 0;
+	padding: 0;
+}
+/*header section start*/
+#header{
+	background-color: #111A29;
+	padding: 15px 0;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+	/*border: 2px solid #F8D714;*/
+}
+.logo{
+	width: 20%;
+	float: left;
+	/*border: 2px solid #63D451;*/
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 70%;
+	float: right;
+	/*border: 2px solid #F3746B;*/
+	margin-top: 38px;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	padding-left: 40px;
+	font-size: 16px;
+	line-height: 24px;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-family: Roboto;
+	letter-spacing: 0;
+	transition: 0.5s;
+}
+.menu ul li a:hover{
+	color: #067EB8;
+}
+
+/*header sction end*/
+/*banner section start*/
+#banner{
+	background-image: url(../images/background.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.banner_content{
+	width: 525px;
+	margin-top: 235px;
+	margin-bottom: 75px;
+}
+.banner_content h2{
+	color: #fff;
+	font-size: 30px;
+	font-family: Montserrat bold;
+	letter-spacing: 0;
+}
+.banner_content h1{
+	color: #077ABB;
+	font-size: 36px;
+	font-family: Montserrat bold;
+	letter-spacing: 0.64px;
+	text-transform: capitalize;
+
+}
+.banner_content p{
+	color: #fff;
+	font-size: 16px;
+	font-family: Montserrat regular;
+	padding-bottom: 28px;
+}
+.button{
+	padding: 7px 18px;
+	border: 2px solid #fff;
+	border-radius: 3px;
+	background: #fff;
+	color: #898989;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+.button:hover{
+	color: #fff;
+	background:#077ABB;
+	border-color: #077ABB;
+}
+/*banner section end*/
